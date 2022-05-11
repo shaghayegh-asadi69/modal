@@ -1,12 +1,22 @@
 body{
     background: url(pexels-pixabay-271816.jpg);
     justify-content: center;
-    text-align: center;
-     
+    text-align: center; 
 }
 .modal-btn:hover {
     background:transparent ;
-color: rgb(85, 95, 163);
+    color: rgb(85, 95, 163);
+}
+.modal-container{
+    background-color: rgb(63, 113, 167);
+ width: 400px;
+ height: 150px;
+ text-align: center;
+ position: relative;
+ font-family: Georgia, 'Times New Roman', Times,  serif;
+ border-radius: 8px;
+ padding-top: 40px;
+ 
 }
  .modal-overlay {
      position: fixed;
@@ -20,29 +30,23 @@ color: rgb(85, 95, 163);
      place-items: center;
      visibility: hidden;
      z-index: -10;
-     
+     background: transparent;     
  }
  .open-modal {
      visibility: visible;
      z-index: 10;
-     
  }
- .modal-container{
-    background-color: rgb(63, 113, 167);
-width: 300px;
-height: 150px;
-text-align: center;
-position: relative;
-font-family: Georgia, 'Times New Roman', Times, serif;
-border-radius: 8px;
-padding-top: 40px;
-}
+ 
+
 .close-btn{
 position: absolute;
 right: 1px;
 top: 1px;
-width: 35px;
+width: 45px;
 border-radius: 5px;
+background:transparent ;
+color: red;
+
 
 }
 
@@ -57,5 +61,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;}
     width: 430px;
     margin: auto ;
     border-radius: 8px;
-    margin-top: 300px;
+    margin-top: 250px;
+    
 }
